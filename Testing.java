@@ -22,4 +22,12 @@ public class Testing {
 		expected.add(2);
 		assertEquals(expected, actual);
 	}
+	
+	@Test
+	public void testFactorThree() {
+		ArrayList<Integer> actual = PrimeFactorFinder.factor(3);
+		ArrayList<Integer> expected = new ArrayList<Integer>();
+		expected.add(3);
+		assertEquals(expected, actual);
+	}
 }
