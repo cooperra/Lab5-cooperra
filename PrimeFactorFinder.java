@@ -9,7 +9,11 @@ public class PrimeFactorFinder {
 	}
 	
 	public static ArrayList<Integer> factor(int n) {
-		return new ArrayList<Integer>();
+		ArrayList<Integer> primes = new ArrayList<Integer>();
+		if (n % 2 == 0) {
+			primes.add(2);
+		}
+		return primes;
 	}
 
 }
