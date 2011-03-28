@@ -61,4 +61,14 @@ public class Testing {
 		expected.add(2);
 		assertEquals(expected, actual);
 	}
+	
+	// Robbie
+	@Test 
+	public void testFactor9() {
+		ArrayList<Integer> actual = PrimeFactorFinder.factor(9);
+		ArrayList<Integer> expected = new ArrayList<Integer>();
+		expected.add(3);
+		expected.add(3);
+		assertEquals(expected, actual);
+	}
 }
