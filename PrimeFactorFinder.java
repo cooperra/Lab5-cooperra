@@ -17,11 +17,11 @@ public class PrimeFactorFinder {
 
 	public static ArrayList<Integer> genPrime(int n) {
 		ArrayList<Integer> returner = new ArrayList<Integer>();
-		for (int x = 2; x <= n; x++) {
+		for (int x = 2; x < n; x++) {
 			Boolean isPrime = true;
 			for (int y = 2; y < x; y++) {
 				System.out.printf("Does %d divide %d?\n", y, x);
-				if (x % y != 0) {
+				if (x % y == 0) {
 					isPrime = false;
 				}
 			}
