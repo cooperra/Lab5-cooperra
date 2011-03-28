@@ -84,4 +84,12 @@ public class Testing {
 		expected.add(1327);
 		assertEquals(expected, actual);
 	}
+	
+	// Luke
+	@Test 
+	public void testGenPrimeNothing() {
+		ArrayList<Integer> actual = PrimeFactorFinder.genPrime(0);
+		ArrayList<Integer> expected = new ArrayList<Integer>();
+		assertEquals(expected, actual);
+	}
 }
