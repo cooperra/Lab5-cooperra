@@ -94,8 +94,9 @@ public class Testing {
 	}
 	
 	// Robbie
+	@Test
 	public void testGenPrime2() {
-		ArrayList<Integer> actual = PrimeFactorFinder.genPrime(2);
+		ArrayList<Integer> actual = PrimeFactorFinder.genPrime(3);
 		ArrayList<Integer> expected = new ArrayList<Integer>();
 		expected.add(2);
 		assertEquals(expected, actual);
