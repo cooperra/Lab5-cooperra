@@ -71,4 +71,17 @@ public class Testing {
 		expected.add(3);
 		assertEquals(expected, actual);
 	}
+	
+	
+	// Luke
+	@Test 
+	public void testFactorBigNumber() {
+		ArrayList<Integer> actual = PrimeFactorFinder.factor(325115);
+		ArrayList<Integer> expected = new ArrayList<Integer>();
+		expected.add(5);
+		expected.add(7);
+		expected.add(7);
+		expected.add(1327);
+		assertEquals(expected, actual);
+	}
 }
