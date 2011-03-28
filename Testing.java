@@ -31,9 +31,10 @@ public class Testing {
 		assertEquals(expected, actual);
 	}
 	
+	// Luke
 	@Test 
 	public void testFactor4() {
-		ArrayList<Integer> actual = PrimeFactorFinder.factor(3);
+		ArrayList<Integer> actual = PrimeFactorFinder.factor(4);
 		ArrayList<Integer> expected = new ArrayList<Integer>();
 		expected.add(2);
 		expected.add(2);
