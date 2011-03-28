@@ -9,7 +9,10 @@ public class PrimeFactorFinder {
 			primes.add(2);
 			n /= 2;
 		}
-		if (n % 3 == 0) primes.add(3);
+		while (n % 3 == 0) {
+			primes.add(3);
+			n /= 3;
+		}
 		return primes;
 	}
 
