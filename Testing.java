@@ -101,4 +101,14 @@ public class Testing {
 		expected.add(2);
 		assertEquals(expected, actual);
 	}
+	
+	// Luke
+	@Test
+	public void testGenPrime3() {
+		ArrayList<Integer> actual = PrimeFactorFinder.genPrime(4);
+		ArrayList<Integer> expected = new ArrayList<Integer>();
+		expected.add(2);
+		expected.add(3);
+		assertEquals(expected, actual);
+	}
 }
